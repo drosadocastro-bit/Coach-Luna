@@ -1,0 +1,314 @@
+{
+  "bench_press": {
+    "provider": "musclewiki",
+    "provider_exercise_id": "377",
+    "provider_exercise_name": "Dumbbell Bench Press",
+    "match_status": "exact_match",
+    "preferred_variant": "female",
+    "preferred_angle": "front",
+    "available_angles": [
+      "front",
+      "side"
+    ],
+    "review_status": "unreviewed",
+    "review_notes": "Candidate discovery only; human approval required.",
+    "last_verified": "2026-09-06T21:23:06.705611+00:00"
+  },
+  "biceps_curl": {
+    "match_status": "no_match",
+    "preferred_variant": "unavailable",
+    "available_angles": [],
+    "review_status": "unreviewed",
+    "review_notes": "No provider candidate found.",
+    "last_verified": "2026-09-06T21:23:06.768335+00:00"
+  },
+  "bulgarian_split_squat": {
+    "provider": "musclewiki",
+    "provider_exercise_id": "42",
+    "provider_exercise_name": "Bulgarian Split Squat",
+    "match_status": "needs_review",
+    "preferred_variant": "female",
+    "preferred_angle": "front",
+    "available_angles": [
+      "front",
+      "side"
+    ],
+    "review_status": "unreviewed",
+    "review_notes": "Candidate discovery only; human approval required.",
+    "last_verified": "2026-09-06T21:23:06.638152+00:00"
+  },
+  "chest_supported_row": {
+    "match_status": "no_match",
+    "preferred_variant": "unavailable",
+    "available_angles": [],
+    "review_status": "unreviewed",
+    "review_notes": "No provider candidate found.",
+    "last_verified": "2026-09-06T21:23:06.750493+00:00"
+  },
+  "db_deadlift": {
+    "provider": "musclewiki",
+    "provider_exercise_id": "291",
+    "provider_exercise_name": "Dumbbell Romanian Deadlift",
+    "match_status": "needs_review",
+    "preferred_variant": "female",
+    "preferred_angle": "front",
+    "available_angles": [
+      "front",
+      "side"
+    ],
+    "review_status": "unreviewed",
+    "review_notes": "Candidate discovery only; human approval required.",
+    "last_verified": "2026-09-06T21:23:06.697825+00:00"
+  },
+  "db_rdl_001": {
+    "provider": "musclewiki",
+    "provider_exercise_id": "291",
+    "provider_exercise_name": "Dumbbell Romanian Deadlift",
+    "match_status": "exact_match",
+    "preferred_variant": "female",
+    "preferred_angle": "front",
+    "available_angles": [
+      "front",
+      "side"
+    ],
+    "review_status": "unreviewed",
+    "review_notes": "Candidate discovery only; human approval required.",
+    "last_verified": "2026-09-06T21:23:06.630528+00:00"
+  },
+  "dead_bug": {
+    "match_status": "no_match",
+    "preferred_variant": "unavailable",
+    "available_angles": [],
+    "review_status": "unreviewed",
+    "review_notes": "No provider candidate found.",
+    "last_verified": "2026-09-06T21:23:06.808316+00:00"
+  },
+  "farmer_carry": {
+    "match_status": "no_match",
+    "preferred_variant": "unavailable",
+    "available_angles": [],
+    "review_status": "unreviewed",
+    "review_notes": "No provider candidate found.",
+    "last_verified": "2026-09-06T21:23:06.792817+00:00"
+  },
+  "glute_bridge": {
+    "provider": "musclewiki",
+    "provider_exercise_id": "293",
+    "provider_exercise_name": "Dumbbell Glute Bridge",
+    "match_status": "exact_match",
+    "preferred_variant": "female",
+    "preferred_angle": "front",
+    "available_angles": [
+      "front",
+      "side"
+    ],
+    "review_status": "unreviewed",
+    "review_notes": "Candidate discovery only; human approval required.",
+    "last_verified": "2026-09-06T21:23:06.675242+00:00"
+  },
+  "goblet_squat": {
+    "provider": "musclewiki",
+    "provider_exercise_id": "11",
+    "provider_exercise_name": "Dumbbell Goblet Squat",
+    "match_status": "acceptable_variant",
+    "preferred_variant": "female",
+    "preferred_angle": "front",
+    "available_angles": [
+      "front",
+      "side"
+    ],
+    "review_status": "unreviewed",
+    "review_notes": "Candidate discovery only; human approval required.",
+    "last_verified": "2026-09-06T21:23:06.623203+00:00"
+  },
+  "hammer_curl": {
+    "provider": "musclewiki",
+    "provider_exercise_id": "261",
+    "provider_exercise_name": "Band Bayesian Hammer Curl",
+    "match_status": "needs_review",
+    "preferred_variant": "female",
+    "preferred_angle": "front",
+    "available_angles": [
+      "front",
+      "side"
+    ],
+    "review_status": "unreviewed",
+    "review_notes": "Candidate discovery only; human approval required.",
+    "last_verified": "2026-09-06T21:23:06.776161+00:00"
+  },
+  "hip_thrust": {
+    "provider": "musclewiki",
+    "provider_exercise_id": "286",
+    "provider_exercise_name": "Dumbbell Hip Thrust",
+    "match_status": "exact_match",
+    "preferred_variant": "female",
+    "preferred_angle": "front",
+    "available_angles": [
+      "front",
+      "side"
+    ],
+    "review_status": "unreviewed",
+    "review_notes": "Candidate discovery only; human approval required.",
+    "last_verified": "2026-09-06T21:23:06.667810+00:00"
+  },
+  "incline_press": {
+    "provider": "musclewiki",
+    "provider_exercise_id": "397",
+    "provider_exercise_name": "Dumbbell Guillotine Incline Bench Press",
+    "match_status": "needs_review",
+    "preferred_variant": "female",
+    "preferred_angle": "front",
+    "available_angles": [
+      "front",
+      "side"
+    ],
+    "review_status": "unreviewed",
+    "review_notes": "Candidate discovery only; human approval required.",
+    "last_verified": "2026-09-06T21:23:06.713167+00:00"
+  },
+  "lateral_raise": {
+    "provider": "musclewiki",
+    "provider_exercise_id": "20",
+    "provider_exercise_name": "Dumbbell Lateral Raise",
+    "match_status": "exact_match",
+    "preferred_variant": "female",
+    "preferred_angle": "front",
+    "available_angles": [
+      "front",
+      "side"
+    ],
+    "review_status": "unreviewed",
+    "review_notes": "Candidate discovery only; human approval required.",
+    "last_verified": "2026-09-06T21:23:06.727987+00:00"
+  },
+  "one_arm_row": {
+    "match_status": "no_match",
+    "preferred_variant": "unavailable",
+    "available_angles": [],
+    "review_status": "unreviewed",
+    "review_notes": "No provider candidate found.",
+    "last_verified": "2026-09-06T21:23:06.742881+00:00"
+  },
+  "pullover": {
+    "provider": "musclewiki",
+    "provider_exercise_id": "413",
+    "provider_exercise_name": "Dumbbell Pullover",
+    "match_status": "exact_match",
+    "preferred_variant": "female",
+    "preferred_angle": "front",
+    "available_angles": [
+      "front",
+      "side"
+    ],
+    "review_status": "unreviewed",
+    "review_notes": "Candidate discovery only; human approval required.",
+    "last_verified": "2026-09-06T21:23:06.759877+00:00"
+  },
+  "rear_delt_fly": {
+    "provider": "musclewiki",
+    "provider_exercise_id": "21",
+    "provider_exercise_name": "Dumbbell Rear Delt Fly",
+    "match_status": "exact_match",
+    "preferred_variant": "female",
+    "preferred_angle": "front",
+    "available_angles": [
+      "front",
+      "side"
+    ],
+    "review_status": "unreviewed",
+    "review_notes": "Candidate discovery only; human approval required.",
+    "last_verified": "2026-09-06T21:23:06.735670+00:00"
+  },
+  "reverse_lunge": {
+    "provider": "musclewiki",
+    "provider_exercise_id": "414",
+    "provider_exercise_name": "Dumbbell Reverse Lunge",
+    "match_status": "exact_match",
+    "preferred_variant": "female",
+    "preferred_angle": "front",
+    "available_angles": [
+      "front",
+      "side"
+    ],
+    "review_status": "unreviewed",
+    "review_notes": "Candidate discovery only; human approval required.",
+    "last_verified": "2026-09-06T21:23:06.645825+00:00"
+  },
+  "russian_twist": {
+    "provider": "musclewiki",
+    "provider_exercise_id": "289",
+    "provider_exercise_name": "Dumbbell Russian Twist",
+    "match_status": "needs_review",
+    "preferred_variant": "female",
+    "preferred_angle": "front",
+    "available_angles": [
+      "front",
+      "side"
+    ],
+    "review_status": "unreviewed",
+    "review_notes": "Candidate discovery only; human approval required.",
+    "last_verified": "2026-09-06T21:23:06.800507+00:00"
+  },
+  "shoulder_press": {
+    "provider": "musclewiki",
+    "provider_exercise_id": "453",
+    "provider_exercise_name": "Dumbbell Single Arm Neutral Overhead Press",
+    "match_status": "needs_review",
+    "preferred_variant": "female",
+    "preferred_angle": "front",
+    "available_angles": [
+      "front",
+      "side"
+    ],
+    "review_status": "unreviewed",
+    "review_notes": "Candidate discovery only; human approval required.",
+    "last_verified": "2026-09-06T21:23:06.720456+00:00"
+  },
+  "single_leg_rdl": {
+    "match_status": "no_match",
+    "preferred_variant": "unavailable",
+    "available_angles": [],
+    "review_status": "unreviewed",
+    "review_notes": "No provider candidate found.",
+    "last_verified": "2026-09-06T21:23:06.689600+00:00"
+  },
+  "step_up": {
+    "match_status": "no_match",
+    "preferred_variant": "unavailable",
+    "available_angles": [],
+    "review_status": "unreviewed",
+    "review_notes": "No provider candidate found.",
+    "last_verified": "2026-09-06T21:23:06.660018+00:00"
+  },
+  "sumo_squat": {
+    "provider": "musclewiki",
+    "provider_exercise_id": "467",
+    "provider_exercise_name": "Dumbbell Sumo Squat",
+    "match_status": "exact_match",
+    "preferred_variant": "female",
+    "preferred_angle": "front",
+    "available_angles": [
+      "front",
+      "side"
+    ],
+    "review_status": "unreviewed",
+    "review_notes": "Candidate discovery only; human approval required.",
+    "last_verified": "2026-09-06T21:23:06.682297+00:00"
+  },
+  "triceps_extension": {
+    "match_status": "no_match",
+    "preferred_variant": "unavailable",
+    "available_angles": [],
+    "review_status": "unreviewed",
+    "review_notes": "No provider candidate found.",
+    "last_verified": "2026-09-06T21:23:06.785135+00:00"
+  },
+  "walking_lunge": {
+    "match_status": "no_match",
+    "preferred_variant": "unavailable",
+    "available_angles": [],
+    "review_status": "unreviewed",
+    "review_notes": "No provider candidate found.",
+    "last_verified": "2026-09-06T21:23:06.652853+00:00"
+  }
+}

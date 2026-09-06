@@ -29,3 +29,15 @@ Generation filters enabled records by all required equipment and experience, ran
 Request bounds: 10–120 minutes, 1–10 exercises, nonempty unique target/equipment lists, known literals only. Unknown IDs return 404; invalid requests and infeasible routines return 422. Server debug mode is disabled, so unexpected failures do not return stack traces.
 
 Provider keys are not read or needed in this phase. Future adapters are Python protocols only. Networking and device instructions: [local networking](../docs/LOCAL_NETWORKING.md).
+
+## MuscleWiki discovery (Phase 1A foundation)
+
+Create `backend/.env` locally with `MUSCLEWIKI_API_KEY=...`; never commit it. From `backend/`, run:
+
+```bash
+python scripts/audit_musclewiki_catalog.py --max-api-calls 30
+```
+
+The first run searches each of the 25 Coach Luna names, writes cache entries to ignored `.cache/musclewiki/`, writes an ignored report to `reports/musclewiki_catalog_audit.json`, and writes unreviewed identity mappings to `app/data/media_mappings.json`. A rerun is cache-first and makes no provider calls; use `--refresh` only for an intentional refresh. The script stops before exceeding its call budget and prints call/hit/miss counts. Candidate ranking uses name, equipment and primary-muscle overlap plus contradictory movement semantics. It never approves candidates automatically. Human reviewers must change `review_status` only after checking the provider exercise and licensing; `match_status` does not mean “licensed” or “production ready”.
+
+The current local audit is 9 exact matches, 1 acceptable variant, 6 needs review and 9 no match. It found female variants and front/side videos for several matches. Persistent mappings intentionally omit video URLs because playback access can be short-lived; a backend media service will resolve approved provider IDs later. No mobile key or provider header is used.

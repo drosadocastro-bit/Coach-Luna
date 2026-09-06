@@ -6,7 +6,7 @@ Typed catalog, SQLite bootstrap, deterministic engine, independent validator, Fa
 
 ## Phase 1 — Exercise media integration
 
-Select owned/licensed media; record permission and attribution; review form and bilingual cues; prepare 5–15 second MP4 loops with appropriate angles; map each asset to an exercise ID; add local playback and loading/error/offline behavior; verify on iOS and Android. No production hosting is assumed.
+The MuscleWiki discovery foundation is now present: provider adapter, cache-first 25-exercise audit, call budget and unreviewed canonical mappings. The live audit currently classifies 9 exact, 1 acceptable variant, 6 needs-review and 9 no-match candidates. Next select approved/licensed media; record permission and attribution; review form and bilingual cues; prepare 5–15 second MP4 loops with appropriate angles; map each approved identity to an exercise ID; add backend runtime media resolution and mobile playback/loading/error/offline behavior; verify on iOS and Android. No production hosting is assumed.
 
 ## Phase 2 — Natural-language prompt parsing with OpenAI
 

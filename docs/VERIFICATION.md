@@ -18,6 +18,8 @@
 - Phone-width browser check at 390 × 844 reported body width 390, without horizontal document overflow. Browser viewport restored afterward.
 - No OpenAI or ElevenLabs dependency, provider integration or actual provider key was added. Every exercise video URI is null; no exercise media was downloaded.
 - Runtime SQLite DB, venv, `.env`, node_modules and export output are ignored by Git.
+- MuscleWiki pilot search succeeded using the configured backend-only key. The controlled 25-exercise audit used 25 API calls, then a classifier correction reran from cache with 0 calls (25 cache hits, 0 misses). Current discovery classifications: 9 exact matches, 1 acceptable variant, 6 needs review, 9 no match. All 25 mappings remain `unreviewed`; no media is exposed as approved. Persisted mappings contain no provider playback URLs.
+- The pilot response confirmed MuscleWiki returns exercise IDs, names, equipment categories, muscles, video URLs, angles and gender variants. Female videos were preferred for discovery where available. This is provider discovery only; licensing and human review are still required.
 
 ## Native acceptance
 
@@ -38,3 +40,4 @@ The approved Coach Luna hero image is included unchanged in `docs/assets/coach-l
 - Template icons remain; exercise demos are placeholders; catalog cues await professional review before broader testing.
 - Starlette's current TestClient warns about the requested `httpx` dependency and an upstream AnyIO alias. Tests pass; no extra HTTP client dependency was added.
 - `npm audit` reports **10 moderate transitive findings** through Expo's xcode/uuid tooling, with no high/critical findings. The proposed automatic remediation downgrades Expo to SDK 46, so it was not applied. Recheck an SDK-compatible upstream fix before native distribution. Do not use `npm audit fix --force` without reviewing its changes.
+- MuscleWiki discovery uses `backend/.cache/musclewiki/` and is ignored. The raw audit report is ignored under `backend/reports/`; regenerate locally with `python scripts/audit_musclewiki_catalog.py`. No provider payload or key is committed.

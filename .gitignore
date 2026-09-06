@@ -18,5 +18,8 @@ web-build/
 .DS_Store
 Thumbs.db
 coverage/
+.cache/
+backend/.cache/
+backend/reports/*.json
 mobile/android/
 mobile/ios/

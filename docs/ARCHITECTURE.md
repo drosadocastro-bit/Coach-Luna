@@ -30,3 +30,9 @@ Mobile → FastAPI → Intent/LLM adapter → deterministic engine
 `IntentAdapter` maps text to `RoutineRequest`. `SpeechAdapter` maps approved text/language to audio bytes. They are protocols with no provider code, dependencies or network requests. OpenAI and ElevenLabs are possible future implementations; provider/model identifiers will be backend configuration after availability checks. Coach Luna's identity belongs to the product contract, independent of either provider.
 
 Only the backend may access provider secrets. No provider key reaches the mobile bundle, response or public environment variables. No authentication or production exposure is part of Phase 0. LAN setup is explicitly scoped to development.
+
+## Phase 1 media mapping
+
+MuscleWiki is an initial media provider behind `app/adapters/media/musclewiki.py`; its schema is converted into Coach Luna's provider-neutral `ProviderExercise` and `ProviderVideo` types. `scripts/audit_musclewiki_catalog.py` searches once per normalized Coach Luna name, writes raw discovery responses to the ignored `.cache/musclewiki/` directory, and emits an ignored report under `backend/reports/`. It prints API calls, cache hits and misses and stops at `--max-api-calls` (30 by default).
+
+The first live audit used 25 calls, then a corrected cached rerun used 0 calls. Results: 9 exact matches, 1 acceptable variant, 6 needs-review candidates and 9 no-match results. The report is discovery evidence, not approval. `media_mappings.json` contains all 25 internal IDs with `review_status: unreviewed`; no mapping is production-approved yet. Persisted mappings omit runtime video/poster URLs. A future media service must resolve only approved identities and mint safe short-lived playback access in the backend. Ambiguous candidates, such as RDL versus conventional deadlift or bilateral versus single-arm press, remain `needs_review`.

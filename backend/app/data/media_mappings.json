@@ -12,7 +12,8 @@
     ],
     "review_status": "approved",
     "review_notes": "New Coach Luna catalog exercise approved as the barbell counterpart to Dumbbell Bench Press.",
-    "last_verified": "2026-09-06T22:23:55.567042+00:00"
+    "last_verified": "2026-09-06T22:23:55.567042+00:00",
+    "alternates": []
   },
   "bench_press": {
     "provider": "musclewiki",
@@ -27,15 +28,18 @@
     ],
     "review_status": "approved",
     "review_notes": "Barbell Bench Press rejected for this Coach Luna exercise; keep as a future separate catalog exercise.",
-    "last_verified": "2026-09-06T22:23:51.884325+00:00"
+    "last_verified": "2026-09-06T22:23:51.884325+00:00",
+    "alternates": []
   },
   "biceps_curl": {
-    "match_status": "no_match",
+    "provider_exercise_name": "Dumbbell Curl",
+    "match_status": "needs_provider_id",
     "preferred_variant": "unavailable",
     "available_angles": [],
-    "review_status": "unreviewed",
-    "review_notes": "No provider candidate found.",
-    "last_verified": "2026-09-06T22:23:55.631707+00:00"
+    "review_status": "approved",
+    "review_notes": "Human-reviewed and approved. Dumbbell Curl is the canonical Coach Luna match; provider ID was not present in the existing cache.",
+    "last_verified": "2026-09-06T22:23:55.631707+00:00",
+    "alternates": []
   },
   "bulgarian_split_squat": {
     "provider": "musclewiki",
@@ -50,30 +54,42 @@
     ],
     "review_status": "approved",
     "review_notes": "Canonical dumbbell approved; barbell Bulgarian Split Squat remains a separate variant.",
-    "last_verified": "2026-09-06T22:23:51.815054+00:00"
+    "last_verified": "2026-09-06T22:23:51.815054+00:00",
+    "alternates": []
   },
   "chest_supported_row": {
-    "match_status": "no_match",
+    "provider_exercise_name": "Dumbbell Laying Incline Row",
+    "match_status": "needs_provider_id",
     "preferred_variant": "unavailable",
     "available_angles": [],
-    "review_status": "unreviewed",
-    "review_notes": "No provider candidate found.",
-    "last_verified": "2026-09-06T22:23:55.616507+00:00"
+    "review_status": "approved",
+    "review_notes": "Human-reviewed and approved as an acceptable variant; provider ID was not present in the existing cache.",
+    "last_verified": "2026-09-06T22:23:55.616507+00:00",
+    "alternates": []
   },
   "db_deadlift": {
     "provider": "musclewiki",
     "provider_exercise_id": "291",
     "provider_exercise_name": "Dumbbell Romanian Deadlift",
-    "match_status": "needs_review",
+    "match_status": "no_match",
     "preferred_variant": "female",
     "preferred_angle": "front",
     "available_angles": [
       "front",
       "side"
     ],
-    "review_status": "unreviewed",
-    "review_notes": "Candidate discovery only; human approval required.",
-    "last_verified": "2026-09-06T22:23:51.876565+00:00"
+    "review_status": "rejected",
+    "review_notes": "RDL remains rejected for conventional Dumbbell Deadlift. Kettlebell Conventional Deadlift (Double) is an acceptable equipment variant; provider ID was not present in the existing cache.",
+    "last_verified": "2026-09-06T22:23:51.876565+00:00",
+    "alternates": [
+      {
+        "provider": "musclewiki",
+        "provider_exercise_id": null,
+        "provider_exercise_name": "Kettlebell Conventional Deadlift (Double)",
+        "variant_type": "equipment",
+        "review_status": "approved"
+      }
+    ]
   },
   "db_rdl_001": {
     "provider": "musclewiki",
@@ -88,23 +104,27 @@
     ],
     "review_status": "approved",
     "review_notes": "Exact canonical match approved.",
-    "last_verified": "2026-09-06T22:23:51.807029+00:00"
+    "last_verified": "2026-09-06T22:23:51.807029+00:00",
+    "alternates": []
   },
   "dead_bug": {
     "match_status": "no_match",
     "preferred_variant": "unavailable",
     "available_angles": [],
-    "review_status": "unreviewed",
-    "review_notes": "No provider candidate found.",
-    "last_verified": "2026-09-06T22:23:55.670387+00:00"
+    "review_status": "rejected",
+    "review_notes": "Removed from the Coach Luna catalog by human review. Historical mapping retained for provenance only; no runtime media.",
+    "last_verified": "2026-09-06T22:23:55.670387+00:00",
+    "alternates": []
   },
   "farmer_carry": {
-    "match_status": "no_match",
+    "provider_exercise_name": "Dumbbell Farmer Walk",
+    "match_status": "needs_provider_id",
     "preferred_variant": "unavailable",
     "available_angles": [],
-    "review_status": "unreviewed",
-    "review_notes": "No provider candidate found.",
-    "last_verified": "2026-09-06T22:23:55.654734+00:00"
+    "review_status": "approved",
+    "review_notes": "Human-reviewed and approved. Dumbbell Farmer Walk is canonical; provider ID was not present in the existing cache.",
+    "last_verified": "2026-09-06T22:23:55.654734+00:00",
+    "alternates": []
   },
   "glute_bridge": {
     "provider": "musclewiki",
@@ -119,7 +139,8 @@
     ],
     "review_status": "approved",
     "review_notes": "Canonical match approved.",
-    "last_verified": "2026-09-06T22:23:51.853238+00:00"
+    "last_verified": "2026-09-06T22:23:51.853238+00:00",
+    "alternates": []
   },
   "goblet_squat": {
     "provider": "musclewiki",
@@ -134,22 +155,24 @@
     ],
     "review_status": "approved",
     "review_notes": "Canonical dumbbell approved; Kettlebell Goblet Squat remains an alternate variant.",
-    "last_verified": "2026-09-06T22:23:51.799438+00:00"
+    "last_verified": "2026-09-06T22:23:51.799438+00:00",
+    "alternates": []
   },
   "hammer_curl": {
     "provider": "musclewiki",
-    "provider_exercise_id": "261",
-    "provider_exercise_name": "Band Bayesian Hammer Curl",
-    "match_status": "needs_review",
+    "provider_exercise_id": "3",
+    "provider_exercise_name": "Dumbbell Hammer Curl",
+    "match_status": "exact_match",
     "preferred_variant": "female",
     "preferred_angle": "front",
     "available_angles": [
       "front",
       "side"
     ],
-    "review_status": "unreviewed",
-    "review_notes": "Candidate discovery only; human approval required.",
-    "last_verified": "2026-09-06T22:23:55.639510+00:00"
+    "review_status": "approved",
+    "review_notes": "Human-reviewed and approved. Band Bayesian Hammer Curl is rejected; Dumbbell Hammer Curl is canonical.",
+    "last_verified": "2026-09-06T22:23:55.639510+00:00",
+    "alternates": []
   },
   "hip_thrust": {
     "provider": "musclewiki",
@@ -164,22 +187,24 @@
     ],
     "review_status": "approved",
     "review_notes": "Canonical match approved.",
-    "last_verified": "2026-09-06T22:23:51.845077+00:00"
+    "last_verified": "2026-09-06T22:23:51.845077+00:00",
+    "alternates": []
   },
   "incline_press": {
     "provider": "musclewiki",
-    "provider_exercise_id": "397",
-    "provider_exercise_name": "Dumbbell Guillotine Incline Bench Press",
-    "match_status": "needs_review",
+    "provider_exercise_id": "398",
+    "provider_exercise_name": "Dumbbell Incline Bench Press",
+    "match_status": "exact_match",
     "preferred_variant": "female",
     "preferred_angle": "front",
     "available_angles": [
       "front",
       "side"
     ],
-    "review_status": "unreviewed",
-    "review_notes": "Candidate discovery only; human approval required.",
-    "last_verified": "2026-09-06T22:23:55.576203+00:00"
+    "review_status": "approved",
+    "review_notes": "Human-reviewed and approved as the standard incline dumbbell press. Guillotine Incline Bench Press is explicitly rejected.",
+    "last_verified": "2026-09-06T22:23:55.576203+00:00",
+    "alternates": []
   },
   "lateral_raise": {
     "provider": "musclewiki",
@@ -194,15 +219,18 @@
     ],
     "review_status": "approved",
     "review_notes": "Canonical match approved; Dumbbell Full Lateral Raise remains a separate alternate.",
-    "last_verified": "2026-09-06T22:23:55.593688+00:00"
+    "last_verified": "2026-09-06T22:23:55.593688+00:00",
+    "alternates": []
   },
   "one_arm_row": {
-    "match_status": "no_match",
+    "provider_exercise_name": "Dumbbell Single Arm Row",
+    "match_status": "needs_provider_id",
     "preferred_variant": "unavailable",
     "available_angles": [],
-    "review_status": "unreviewed",
-    "review_notes": "No provider candidate found.",
-    "last_verified": "2026-09-06T22:23:55.609240+00:00"
+    "review_status": "approved",
+    "review_notes": "Human-reviewed and approved. Dumbbell Single Arm Row is canonical; provider ID was not present in the existing cache.",
+    "last_verified": "2026-09-06T22:23:55.609240+00:00",
+    "alternates": []
   },
   "pullover": {
     "provider": "musclewiki",
@@ -217,7 +245,8 @@
     ],
     "review_status": "approved",
     "review_notes": "Canonical match approved.",
-    "last_verified": "2026-09-06T22:23:55.624289+00:00"
+    "last_verified": "2026-09-06T22:23:55.624289+00:00",
+    "alternates": []
   },
   "rear_delt_fly": {
     "provider": "musclewiki",
@@ -232,7 +261,8 @@
     ],
     "review_status": "approved",
     "review_notes": "Canonical match approved; Dumbbell Seated Rear Delt Fly remains a separate alternate.",
-    "last_verified": "2026-09-06T22:23:55.601918+00:00"
+    "last_verified": "2026-09-06T22:23:55.601918+00:00",
+    "alternates": []
   },
   "reverse_lunge": {
     "provider": "musclewiki",
@@ -247,7 +277,8 @@
     ],
     "review_status": "approved",
     "review_notes": "Canonical match approved; goblet and alternating reverse lunge variants remain separate alternates.",
-    "last_verified": "2026-09-06T22:23:51.822595+00:00"
+    "last_verified": "2026-09-06T22:23:51.822595+00:00",
+    "alternates": []
   },
   "russian_twist": {
     "provider": "musclewiki",
@@ -262,38 +293,44 @@
     ],
     "review_status": "approved",
     "review_notes": "Canonical match approved; Dumbbell Feet Down Russian Twist remains a separate alternate.",
-    "last_verified": "2026-09-06T22:23:55.663032+00:00"
+    "last_verified": "2026-09-06T22:23:55.663032+00:00",
+    "alternates": []
   },
   "shoulder_press": {
     "provider": "musclewiki",
-    "provider_exercise_id": "453",
-    "provider_exercise_name": "Dumbbell Single Arm Neutral Overhead Press",
-    "match_status": "needs_review",
+    "provider_exercise_name": "Dumbbell Overhead Press",
+    "match_status": "needs_provider_id",
     "preferred_variant": "female",
     "preferred_angle": "front",
     "available_angles": [
       "front",
       "side"
     ],
-    "review_status": "unreviewed",
-    "review_notes": "Candidate discovery only; human approval required.",
-    "last_verified": "2026-09-06T22:23:55.584839+00:00"
+    "review_status": "approved",
+    "review_notes": "Human-reviewed and approved conceptually, but the verified provider ID is not present in the existing cache. Do not expose until the provider identity is confirmed. Single Arm Neutral Overhead Press is rejected.",
+    "last_verified": "2026-09-06T22:23:55.584839+00:00",
+    "alternates": []
   },
   "single_leg_rdl": {
-    "match_status": "no_match",
+    "provider_exercise_id": "461",
+    "provider_exercise_name": "Dumbbell Single Leg Single Arm Deadlift",
+    "match_status": "acceptable_variant",
     "preferred_variant": "unavailable",
     "available_angles": [],
-    "review_status": "unreviewed",
-    "review_notes": "No provider candidate found.",
-    "last_verified": "2026-09-06T22:23:51.868653+00:00"
+    "review_status": "approved",
+    "review_notes": "Human-reviewed and approved as an acceptable unilateral deadlift variant.",
+    "last_verified": "2026-09-06T22:23:51.868653+00:00",
+    "alternates": []
   },
   "step_up": {
-    "match_status": "no_match",
+    "provider_exercise_name": "Dumbbell Step Up",
+    "match_status": "needs_provider_id",
     "preferred_variant": "unavailable",
     "available_angles": [],
-    "review_status": "unreviewed",
-    "review_notes": "No provider candidate found.",
-    "last_verified": "2026-09-06T22:23:51.837581+00:00"
+    "review_status": "approved",
+    "review_notes": "Human-reviewed and approved. Provider ID was not present in the existing cache.",
+    "last_verified": "2026-09-06T22:23:51.837581+00:00",
+    "alternates": []
   },
   "sumo_squat": {
     "provider": "musclewiki",
@@ -308,22 +345,27 @@
     ],
     "review_status": "approved",
     "review_notes": "Canonical match approved.",
-    "last_verified": "2026-09-06T22:23:51.861107+00:00"
+    "last_verified": "2026-09-06T22:23:51.861107+00:00",
+    "alternates": []
   },
   "triceps_extension": {
-    "match_status": "no_match",
+    "provider_exercise_name": "Dumbbell Overhead Tricep Extension",
+    "match_status": "needs_provider_id",
     "preferred_variant": "unavailable",
     "available_angles": [],
-    "review_status": "unreviewed",
-    "review_notes": "No provider candidate found.",
-    "last_verified": "2026-09-06T22:23:55.647079+00:00"
+    "review_status": "approved",
+    "review_notes": "Human-reviewed and approved. Provider ID was not present in the existing cache.",
+    "last_verified": "2026-09-06T22:23:55.647079+00:00",
+    "alternates": []
   },
   "walking_lunge": {
-    "match_status": "no_match",
+    "provider_exercise_name": "Walking Lunge",
+    "match_status": "needs_provider_id",
     "preferred_variant": "unavailable",
     "available_angles": [],
-    "review_status": "unreviewed",
-    "review_notes": "No provider candidate found.",
-    "last_verified": "2026-09-06T22:23:51.830523+00:00"
+    "review_status": "approved",
+    "review_notes": "Human-reviewed and approved as an acceptable unloaded instructional variant; provider ID was not present in the existing cache.",
+    "last_verified": "2026-09-06T22:23:51.830523+00:00",
+    "alternates": []
   }
 }

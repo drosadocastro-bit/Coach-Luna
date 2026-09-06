@@ -1115,7 +1115,7 @@
       "Inclinarse a un lado o apurarse con agarre flojo."
     ],
     "alternatives": [
-      "dead_bug"
+      "russian_twist"
     ],
     "enabled": true
   },
@@ -1159,53 +1159,7 @@
       "Redondear la espalda o forzar giros amplios y rápidos."
     ],
     "alternatives": [
-      "dead_bug",
       "farmer_carry"
-    ],
-    "enabled": true
-  },
-  {
-    "id": "dead_bug",
-    "name": "Dumbbell Dead Bug",
-    "display_name_es": "Bicho muerto con mancuerna",
-    "primary_muscles": [
-      "core"
-    ],
-    "secondary_muscles": [
-      "shoulders"
-    ],
-    "equipment": [
-      "dumbbells"
-    ],
-    "movement_pattern": "anti_extension",
-    "difficulty": "beginner_intermediate",
-    "unilateral": true,
-    "default_sets": 3,
-    "rep_min": 8,
-    "rep_max": 12,
-    "prescription_unit": "reps",
-    "video": {
-      "type": "mp4",
-      "uri": null,
-      "angles": [
-        "three_quarter"
-      ]
-    },
-    "instructions_en": [
-      "Lie on your back holding a light dumbbell securely above chest; keep the trunk steady as you extend one leg at a time. Repeat each side."
-    ],
-    "instructions_es": [
-      "Acuéstate boca arriba sujetando una mancuerna ligera sobre el pecho; mantén el tronco estable al extender una pierna a la vez. Repite por lado."
-    ],
-    "common_mistakes_en": [
-      "Arching the lower back or lowering the leg beyond control."
-    ],
-    "common_mistakes_es": [
-      "Arquear la zona lumbar o bajar la pierna más allá del control."
-    ],
-    "alternatives": [
-      "farmer_carry",
-      "russian_twist"
     ],
     "enabled": true
   }

@@ -4,9 +4,9 @@ from app.services.exercise_library import ExerciseLibrary
 
 
 def test_seed(catalog):
-    assert len(catalog) == 26
+    assert len(catalog) == 25
     ids = {e.id for e in catalog}
-    assert len(ids) == 26
+    assert len(ids) == 25
     for e in catalog:
         assert e.name and e.display_name_es and e.primary_muscles and e.equipment
         assert e.instructions_en and e.instructions_es and e.common_mistakes_en and e.common_mistakes_es
@@ -21,5 +21,5 @@ def test_sqlite_persists_edits(tmp_path):
     with sqlite3.connect(library.database_path) as connection:
         connection.execute("UPDATE exercises SET payload=? WHERE id=?", (exercise.model_dump_json(), exercise.id))
     library.initialize()
-    assert len(library.all()) == 26
+    assert len(library.all()) == 25
     assert library.get(exercise.id).enabled is False

@@ -25,7 +25,7 @@ No OpenAI or ElevenLabs integration is active yet. Native bundle exports do not 
 
 ## Phase 0
 
-Expo React Native + TypeScript → FastAPI → deterministic routine engine → independent validator → validated JSON → mobile workout and exercise details. A SQLite exercise catalog is seeded with 26 bilingual exercises, including separate dumbbell and barbell bench press identities. No external providers are called during workout generation.
+Expo React Native + TypeScript → FastAPI → deterministic routine engine → independent validator → validated JSON → mobile workout and exercise details. A SQLite exercise catalog is seeded with 25 bilingual exercises, including separate dumbbell and barbell bench press identities. No external providers are called during workout generation.
 
 ## Run the backend (WSL2 Ubuntu)
 

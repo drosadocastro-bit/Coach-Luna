@@ -8,7 +8,7 @@ def test_health(client):
 def test_exercises(client):
     response = client.get("/exercises")
     assert response.status_code == 200
-    assert len(response.json()) == 26
+    assert len(response.json()) == 25
     assert client.get("/exercises/db_rdl_001").json()["display_name_es"]
     assert client.get("/exercises/missing").status_code == 404
     for row in client.get("/exercises?muscle=glutes&equipment=dumbbells").json():

@@ -33,6 +33,9 @@ class ExerciseLibrary:
             missing = [(e.id, e.model_dump_json()) for e in seed if e.id not in existing]
             if missing:
                 connection.executemany("INSERT INTO exercises VALUES (?, ?)", missing)
+            seed_ids = {e.id for e in seed}
+            for removed_id in existing - seed_ids:
+                connection.execute("DELETE FROM exercises WHERE id = ?", (removed_id,))
 
     def all(self) -> list[Exercise]:
         with sqlite3.connect(self.database_path) as connection:

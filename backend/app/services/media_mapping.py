@@ -7,7 +7,7 @@ from pydantic import Field
 
 from app.models.exercise import StrictModel
 
-MatchStatus = Literal["exact_match", "acceptable_variant", "no_match", "needs_review"]
+MatchStatus = Literal["exact_match", "acceptable_variant", "no_match", "needs_review", "needs_provider_id"]
 ReviewStatus = Literal["unreviewed", "approved", "rejected"]
 
 
@@ -25,6 +25,7 @@ class MediaMapping(StrictModel):
     last_verified: str | None = None
     primary_url: str | None = None
     poster_url: str | None = None
+    alternates: list[dict] = Field(default_factory=list)
 
 
 MAPPING_PATH = Path(__file__).resolve().parents[1] / "data" / "media_mappings.json"

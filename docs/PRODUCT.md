@@ -17,6 +17,6 @@ The LLM personality/system contract is deferred. Phase 0 implements neutral, enc
 
 ## Training and visuals
 
-Free weights come first, beginning with 25 dumbbell exercises. Stable IDs, explicit equipment, muscle groups and movement patterns allow machine exercises later. The engine is a transparent starter routine builder, not individualized scientific programming.
+Free weights come first, beginning with the original 25 dumbbell exercises plus a separately identified barbell bench press. Stable IDs, explicit equipment, muscle groups and movement patterns allow machine exercises later. The engine is a transparent starter routine builder, not individualized scientific programming.
 
 Visual demonstrations are central to future coaching. For now every video URI is null and the UI shows a clearly labeled placeholder beside written bilingual instructions. Media must be owned, licensed or explicitly permitted. Cues and demonstrations should receive fitness-professional review before broader testing.

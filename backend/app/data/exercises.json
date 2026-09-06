@@ -566,6 +566,53 @@
     "enabled": true
   },
   {
+    "id": "barbell_bench_press",
+    "name": "Barbell Bench Press",
+    "display_name_es": "Press de banca con barra",
+    "primary_muscles": [
+      "chest"
+    ],
+    "secondary_muscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "equipment": [
+      "barbell",
+      "bench"
+    ],
+    "movement_pattern": "horizontal_push",
+    "difficulty": "beginner_intermediate",
+    "unilateral": false,
+    "default_sets": 3,
+    "rep_min": 6,
+    "rep_max": 10,
+    "prescription_unit": "reps",
+    "video": {
+      "type": "mp4",
+      "uri": null,
+      "angles": [
+        "three_quarter"
+      ]
+    },
+    "instructions_en": [
+      "Lie on a stable bench with eyes under the bar; lower it toward the mid-chest with control and press up without bouncing."
+    ],
+    "instructions_es": [
+      "Acuéstate en un banco estable con los ojos bajo la barra; bájala hacia el centro del pecho con control y empuja sin rebotar."
+    ],
+    "common_mistakes_en": [
+      "Uncontrolled bar path or lifting the hips from the bench."
+    ],
+    "common_mistakes_es": [
+      "Trayectoria sin control o levantar las caderas del banco."
+    ],
+    "alternatives": [
+      "bench_press",
+      "incline_press"
+    ],
+    "enabled": true
+  },
+  {
     "id": "incline_press",
     "name": "Incline Dumbbell Press",
     "display_name_es": "Press inclinado con mancuernas",

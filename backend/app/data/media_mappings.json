@@ -1,4 +1,19 @@
 {
+  "barbell_bench_press": {
+    "provider": "musclewiki",
+    "provider_exercise_id": "4",
+    "provider_exercise_name": "Barbell Bench Press",
+    "match_status": "exact_match",
+    "preferred_variant": "female",
+    "preferred_angle": "front",
+    "available_angles": [
+      "front",
+      "side"
+    ],
+    "review_status": "approved",
+    "review_notes": "New Coach Luna catalog exercise approved as the barbell counterpart to Dumbbell Bench Press.",
+    "last_verified": "2026-09-06T22:23:55.567042+00:00"
+  },
   "bench_press": {
     "provider": "musclewiki",
     "provider_exercise_id": "377",
@@ -12,7 +27,7 @@
     ],
     "review_status": "approved",
     "review_notes": "Barbell Bench Press rejected for this Coach Luna exercise; keep as a future separate catalog exercise.",
-    "last_verified": "2026-09-06T21:23:06.705611+00:00"
+    "last_verified": "2026-09-06T22:23:51.884325+00:00"
   },
   "biceps_curl": {
     "match_status": "no_match",
@@ -20,7 +35,7 @@
     "available_angles": [],
     "review_status": "unreviewed",
     "review_notes": "No provider candidate found.",
-    "last_verified": "2026-09-06T21:23:06.768335+00:00"
+    "last_verified": "2026-09-06T22:23:55.631707+00:00"
   },
   "bulgarian_split_squat": {
     "provider": "musclewiki",
@@ -35,7 +50,7 @@
     ],
     "review_status": "approved",
     "review_notes": "Canonical dumbbell approved; barbell Bulgarian Split Squat remains a separate variant.",
-    "last_verified": "2026-09-06T21:23:06.638152+00:00"
+    "last_verified": "2026-09-06T22:23:51.815054+00:00"
   },
   "chest_supported_row": {
     "match_status": "no_match",
@@ -43,7 +58,7 @@
     "available_angles": [],
     "review_status": "unreviewed",
     "review_notes": "No provider candidate found.",
-    "last_verified": "2026-09-06T21:23:06.750493+00:00"
+    "last_verified": "2026-09-06T22:23:55.616507+00:00"
   },
   "db_deadlift": {
     "provider": "musclewiki",
@@ -58,7 +73,7 @@
     ],
     "review_status": "unreviewed",
     "review_notes": "Candidate discovery only; human approval required.",
-    "last_verified": "2026-09-06T21:23:06.697825+00:00"
+    "last_verified": "2026-09-06T22:23:51.876565+00:00"
   },
   "db_rdl_001": {
     "provider": "musclewiki",
@@ -73,7 +88,7 @@
     ],
     "review_status": "approved",
     "review_notes": "Exact canonical match approved.",
-    "last_verified": "2026-09-06T21:23:06.630528+00:00"
+    "last_verified": "2026-09-06T22:23:51.807029+00:00"
   },
   "dead_bug": {
     "match_status": "no_match",
@@ -81,7 +96,7 @@
     "available_angles": [],
     "review_status": "unreviewed",
     "review_notes": "No provider candidate found.",
-    "last_verified": "2026-09-06T21:23:06.808316+00:00"
+    "last_verified": "2026-09-06T22:23:55.670387+00:00"
   },
   "farmer_carry": {
     "match_status": "no_match",
@@ -89,7 +104,7 @@
     "available_angles": [],
     "review_status": "unreviewed",
     "review_notes": "No provider candidate found.",
-    "last_verified": "2026-09-06T21:23:06.792817+00:00"
+    "last_verified": "2026-09-06T22:23:55.654734+00:00"
   },
   "glute_bridge": {
     "provider": "musclewiki",
@@ -104,7 +119,7 @@
     ],
     "review_status": "approved",
     "review_notes": "Canonical match approved.",
-    "last_verified": "2026-09-06T21:23:06.675242+00:00"
+    "last_verified": "2026-09-06T22:23:51.853238+00:00"
   },
   "goblet_squat": {
     "provider": "musclewiki",
@@ -119,7 +134,7 @@
     ],
     "review_status": "approved",
     "review_notes": "Canonical dumbbell approved; Kettlebell Goblet Squat remains an alternate variant.",
-    "last_verified": "2026-09-06T21:23:06.623203+00:00"
+    "last_verified": "2026-09-06T22:23:51.799438+00:00"
   },
   "hammer_curl": {
     "provider": "musclewiki",
@@ -134,7 +149,7 @@
     ],
     "review_status": "unreviewed",
     "review_notes": "Candidate discovery only; human approval required.",
-    "last_verified": "2026-09-06T21:23:06.776161+00:00"
+    "last_verified": "2026-09-06T22:23:55.639510+00:00"
   },
   "hip_thrust": {
     "provider": "musclewiki",
@@ -149,7 +164,7 @@
     ],
     "review_status": "approved",
     "review_notes": "Canonical match approved.",
-    "last_verified": "2026-09-06T21:23:06.667810+00:00"
+    "last_verified": "2026-09-06T22:23:51.845077+00:00"
   },
   "incline_press": {
     "provider": "musclewiki",
@@ -164,7 +179,7 @@
     ],
     "review_status": "unreviewed",
     "review_notes": "Candidate discovery only; human approval required.",
-    "last_verified": "2026-09-06T21:23:06.713167+00:00"
+    "last_verified": "2026-09-06T22:23:55.576203+00:00"
   },
   "lateral_raise": {
     "provider": "musclewiki",
@@ -179,7 +194,7 @@
     ],
     "review_status": "approved",
     "review_notes": "Canonical match approved; Dumbbell Full Lateral Raise remains a separate alternate.",
-    "last_verified": "2026-09-06T21:23:06.727987+00:00"
+    "last_verified": "2026-09-06T22:23:55.593688+00:00"
   },
   "one_arm_row": {
     "match_status": "no_match",
@@ -187,7 +202,7 @@
     "available_angles": [],
     "review_status": "unreviewed",
     "review_notes": "No provider candidate found.",
-    "last_verified": "2026-09-06T21:23:06.742881+00:00"
+    "last_verified": "2026-09-06T22:23:55.609240+00:00"
   },
   "pullover": {
     "provider": "musclewiki",
@@ -202,7 +217,7 @@
     ],
     "review_status": "approved",
     "review_notes": "Canonical match approved.",
-    "last_verified": "2026-09-06T21:23:06.759877+00:00"
+    "last_verified": "2026-09-06T22:23:55.624289+00:00"
   },
   "rear_delt_fly": {
     "provider": "musclewiki",
@@ -217,7 +232,7 @@
     ],
     "review_status": "approved",
     "review_notes": "Canonical match approved; Dumbbell Seated Rear Delt Fly remains a separate alternate.",
-    "last_verified": "2026-09-06T21:23:06.735670+00:00"
+    "last_verified": "2026-09-06T22:23:55.601918+00:00"
   },
   "reverse_lunge": {
     "provider": "musclewiki",
@@ -232,7 +247,7 @@
     ],
     "review_status": "approved",
     "review_notes": "Canonical match approved; goblet and alternating reverse lunge variants remain separate alternates.",
-    "last_verified": "2026-09-06T21:23:06.645825+00:00"
+    "last_verified": "2026-09-06T22:23:51.822595+00:00"
   },
   "russian_twist": {
     "provider": "musclewiki",
@@ -247,7 +262,7 @@
     ],
     "review_status": "approved",
     "review_notes": "Canonical match approved; Dumbbell Feet Down Russian Twist remains a separate alternate.",
-    "last_verified": "2026-09-06T21:23:06.800507+00:00"
+    "last_verified": "2026-09-06T22:23:55.663032+00:00"
   },
   "shoulder_press": {
     "provider": "musclewiki",
@@ -262,7 +277,7 @@
     ],
     "review_status": "unreviewed",
     "review_notes": "Candidate discovery only; human approval required.",
-    "last_verified": "2026-09-06T21:23:06.720456+00:00"
+    "last_verified": "2026-09-06T22:23:55.584839+00:00"
   },
   "single_leg_rdl": {
     "match_status": "no_match",
@@ -270,7 +285,7 @@
     "available_angles": [],
     "review_status": "unreviewed",
     "review_notes": "No provider candidate found.",
-    "last_verified": "2026-09-06T21:23:06.689600+00:00"
+    "last_verified": "2026-09-06T22:23:51.868653+00:00"
   },
   "step_up": {
     "match_status": "no_match",
@@ -278,7 +293,7 @@
     "available_angles": [],
     "review_status": "unreviewed",
     "review_notes": "No provider candidate found.",
-    "last_verified": "2026-09-06T21:23:06.660018+00:00"
+    "last_verified": "2026-09-06T22:23:51.837581+00:00"
   },
   "sumo_squat": {
     "provider": "musclewiki",
@@ -293,7 +308,7 @@
     ],
     "review_status": "approved",
     "review_notes": "Canonical match approved.",
-    "last_verified": "2026-09-06T21:23:06.682297+00:00"
+    "last_verified": "2026-09-06T22:23:51.861107+00:00"
   },
   "triceps_extension": {
     "match_status": "no_match",
@@ -301,7 +316,7 @@
     "available_angles": [],
     "review_status": "unreviewed",
     "review_notes": "No provider candidate found.",
-    "last_verified": "2026-09-06T21:23:06.785135+00:00"
+    "last_verified": "2026-09-06T22:23:55.647079+00:00"
   },
   "walking_lunge": {
     "match_status": "no_match",
@@ -309,6 +324,6 @@
     "available_angles": [],
     "review_status": "unreviewed",
     "review_notes": "No provider candidate found.",
-    "last_verified": "2026-09-06T21:23:06.652853+00:00"
+    "last_verified": "2026-09-06T22:23:51.830523+00:00"
   }
 }

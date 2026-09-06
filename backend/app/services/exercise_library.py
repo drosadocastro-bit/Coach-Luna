@@ -29,8 +29,10 @@ class ExerciseLibrary:
         seed = load_seed()
         with sqlite3.connect(self.database_path) as connection:
             connection.execute("CREATE TABLE IF NOT EXISTS exercises (id TEXT PRIMARY KEY, payload TEXT NOT NULL)")
-            if connection.execute("SELECT COUNT(*) FROM exercises").fetchone()[0] == 0:
-                connection.executemany("INSERT INTO exercises VALUES (?, ?)", [(e.id, e.model_dump_json()) for e in seed])
+            existing = {row[0] for row in connection.execute("SELECT id FROM exercises")}
+            missing = [(e.id, e.model_dump_json()) for e in seed if e.id not in existing]
+            if missing:
+                connection.executemany("INSERT INTO exercises VALUES (?, ?)", missing)
 
     def all(self) -> list[Exercise]:
         with sqlite3.connect(self.database_path) as connection:

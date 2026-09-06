@@ -7,6 +7,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from app.services.media_mapping import load_mappings, save_mappings
 
 DECISIONS = {
+    "barbell_bench_press": ("4", "Barbell Bench Press", "New Coach Luna catalog exercise approved as the barbell counterpart to Dumbbell Bench Press."),
     "bench_press": ("377", "Dumbbell Bench Press", "Barbell Bench Press rejected for this Coach Luna exercise; keep as a future separate catalog exercise."),
     "bulgarian_split_squat": ("317", "Dumbbell Bulgarian Split Squat", "Canonical dumbbell approved; barbell Bulgarian Split Squat remains a separate variant."),
     "db_rdl_001": ("291", "Dumbbell Romanian Deadlift", "Exact canonical match approved."),

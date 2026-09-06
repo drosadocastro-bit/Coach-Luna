@@ -18,7 +18,7 @@
 - Phone-width browser check at 390 × 844 reported body width 390, without horizontal document overflow. Browser viewport restored afterward.
 - No OpenAI or ElevenLabs dependency, provider integration or actual provider key was added. Every exercise video URI is null; no exercise media was downloaded.
 - Runtime SQLite DB, venv, `.env`, node_modules and export output are ignored by Git.
-- MuscleWiki pilot search succeeded using the configured backend-only key. The controlled 25-exercise audit used 25 API calls, then a classifier correction reran from cache with 0 calls (25 cache hits, 0 misses). Current discovery classifications: 9 exact matches, 1 acceptable variant, 6 needs review, 9 no match. All 25 mappings remain `unreviewed`; no media is exposed as approved. Persisted mappings contain no provider playback URLs.
+- MuscleWiki pilot search succeeded using the configured backend-only key. The controlled 25-exercise audit used 25 API calls, then a classifier correction reran from cache with 0 calls (25 cache hits, 0 misses). Adding `barbell_bench_press` used 1 additional API call (25 cache hits, 1 miss). The original 25 discovery set classified as 9 exact, 1 acceptable variant, 6 needs review and 9 no match; the new barbell bench press is an exact match. Thirteen canonical pilot mappings are now approved; no unapproved media is exposed. Persisted mappings contain no provider playback URLs.
 - The pilot response confirmed MuscleWiki returns exercise IDs, names, equipment categories, muscles, video URLs, angles and gender variants. Female videos were preferred for discovery where available. This is provider discovery only; licensing and human review are still required.
 
 ## Native acceptance

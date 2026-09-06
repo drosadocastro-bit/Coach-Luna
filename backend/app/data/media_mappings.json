@@ -10,8 +10,8 @@
       "front",
       "side"
     ],
-    "review_status": "unreviewed",
-    "review_notes": "Candidate discovery only; human approval required.",
+    "review_status": "approved",
+    "review_notes": "Barbell Bench Press rejected for this Coach Luna exercise; keep as a future separate catalog exercise.",
     "last_verified": "2026-09-06T21:23:06.705611+00:00"
   },
   "biceps_curl": {
@@ -24,17 +24,17 @@
   },
   "bulgarian_split_squat": {
     "provider": "musclewiki",
-    "provider_exercise_id": "42",
-    "provider_exercise_name": "Bulgarian Split Squat",
-    "match_status": "needs_review",
+    "provider_exercise_id": "317",
+    "provider_exercise_name": "Dumbbell Bulgarian Split Squat",
+    "match_status": "exact_match",
     "preferred_variant": "female",
     "preferred_angle": "front",
     "available_angles": [
       "front",
       "side"
     ],
-    "review_status": "unreviewed",
-    "review_notes": "Candidate discovery only; human approval required.",
+    "review_status": "approved",
+    "review_notes": "Canonical dumbbell approved; barbell Bulgarian Split Squat remains a separate variant.",
     "last_verified": "2026-09-06T21:23:06.638152+00:00"
   },
   "chest_supported_row": {
@@ -71,8 +71,8 @@
       "front",
       "side"
     ],
-    "review_status": "unreviewed",
-    "review_notes": "Candidate discovery only; human approval required.",
+    "review_status": "approved",
+    "review_notes": "Exact canonical match approved.",
     "last_verified": "2026-09-06T21:23:06.630528+00:00"
   },
   "dead_bug": {
@@ -102,23 +102,23 @@
       "front",
       "side"
     ],
-    "review_status": "unreviewed",
-    "review_notes": "Candidate discovery only; human approval required.",
+    "review_status": "approved",
+    "review_notes": "Canonical match approved.",
     "last_verified": "2026-09-06T21:23:06.675242+00:00"
   },
   "goblet_squat": {
     "provider": "musclewiki",
     "provider_exercise_id": "11",
     "provider_exercise_name": "Dumbbell Goblet Squat",
-    "match_status": "acceptable_variant",
+    "match_status": "exact_match",
     "preferred_variant": "female",
     "preferred_angle": "front",
     "available_angles": [
       "front",
       "side"
     ],
-    "review_status": "unreviewed",
-    "review_notes": "Candidate discovery only; human approval required.",
+    "review_status": "approved",
+    "review_notes": "Canonical dumbbell approved; Kettlebell Goblet Squat remains an alternate variant.",
     "last_verified": "2026-09-06T21:23:06.623203+00:00"
   },
   "hammer_curl": {
@@ -147,8 +147,8 @@
       "front",
       "side"
     ],
-    "review_status": "unreviewed",
-    "review_notes": "Candidate discovery only; human approval required.",
+    "review_status": "approved",
+    "review_notes": "Canonical match approved.",
     "last_verified": "2026-09-06T21:23:06.667810+00:00"
   },
   "incline_press": {
@@ -177,8 +177,8 @@
       "front",
       "side"
     ],
-    "review_status": "unreviewed",
-    "review_notes": "Candidate discovery only; human approval required.",
+    "review_status": "approved",
+    "review_notes": "Canonical match approved; Dumbbell Full Lateral Raise remains a separate alternate.",
     "last_verified": "2026-09-06T21:23:06.727987+00:00"
   },
   "one_arm_row": {
@@ -200,8 +200,8 @@
       "front",
       "side"
     ],
-    "review_status": "unreviewed",
-    "review_notes": "Candidate discovery only; human approval required.",
+    "review_status": "approved",
+    "review_notes": "Canonical match approved.",
     "last_verified": "2026-09-06T21:23:06.759877+00:00"
   },
   "rear_delt_fly": {
@@ -215,8 +215,8 @@
       "front",
       "side"
     ],
-    "review_status": "unreviewed",
-    "review_notes": "Candidate discovery only; human approval required.",
+    "review_status": "approved",
+    "review_notes": "Canonical match approved; Dumbbell Seated Rear Delt Fly remains a separate alternate.",
     "last_verified": "2026-09-06T21:23:06.735670+00:00"
   },
   "reverse_lunge": {
@@ -230,23 +230,23 @@
       "front",
       "side"
     ],
-    "review_status": "unreviewed",
-    "review_notes": "Candidate discovery only; human approval required.",
+    "review_status": "approved",
+    "review_notes": "Canonical match approved; goblet and alternating reverse lunge variants remain separate alternates.",
     "last_verified": "2026-09-06T21:23:06.645825+00:00"
   },
   "russian_twist": {
     "provider": "musclewiki",
     "provider_exercise_id": "289",
     "provider_exercise_name": "Dumbbell Russian Twist",
-    "match_status": "needs_review",
+    "match_status": "exact_match",
     "preferred_variant": "female",
     "preferred_angle": "front",
     "available_angles": [
       "front",
       "side"
     ],
-    "review_status": "unreviewed",
-    "review_notes": "Candidate discovery only; human approval required.",
+    "review_status": "approved",
+    "review_notes": "Canonical match approved; Dumbbell Feet Down Russian Twist remains a separate alternate.",
     "last_verified": "2026-09-06T21:23:06.800507+00:00"
   },
   "shoulder_press": {
@@ -291,8 +291,8 @@
       "front",
       "side"
     ],
-    "review_status": "unreviewed",
-    "review_notes": "Candidate discovery only; human approval required.",
+    "review_status": "approved",
+    "review_notes": "Canonical match approved.",
     "last_verified": "2026-09-06T21:23:06.682297+00:00"
   },
   "triceps_extension": {

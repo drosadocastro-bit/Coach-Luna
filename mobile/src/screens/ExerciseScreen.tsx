@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { ActivityIndicator, Text, View } from 'react-native';
 import { coachLunaApi } from '../api/coachLunaApi';
 import { prescription } from '../components/ExerciseCard';
-import { VideoPlaceholder } from '../components/VideoPlaceholder';
+import { ExerciseVideo } from '../components/ExerciseVideo';
 import { Button, styles } from '../components/ui';
 import { names, t } from '../i18n';
 import { Exercise, Language } from '../types/exercise';
@@ -31,7 +31,7 @@ export function ExerciseScreen({ id, language, onBack, onView }: { id: string; l
     <Button title={t(language, 'Back to workout', 'Volver al entrenamiento')} onPress={onBack} />
     {error ? <View style={styles.error}><Text style={styles.body}>{t(language, 'Could not load this exercise.', 'No se pudo cargar este ejercicio.')}</Text><Button title={t(language, 'Retry', 'Reintentar')} onPress={() => setAttempt(a => a + 1)} /></View> : !exercise ? <ActivityIndicator color="#315C49" /> : <>
       <Text style={styles.title}>{language === 'en' ? exercise.name : exercise.display_name_es}</Text>
-      <VideoPlaceholder language={language} />
+      <ExerciseVideo exerciseId={exercise.id} language={language} preferredAngle={exercise.video.angles[0]} />
       <Text style={styles.body}>{prescription({ sets: exercise.default_sets, rep_min: exercise.rep_min, rep_max: exercise.rep_max }, exercise.prescription_unit, exercise.unilateral, language)}</Text>
       <Text style={styles.heading}>{t(language, 'Primary muscles', 'Músculos principales')}</Text><Text style={styles.body}>{names(exercise.primary_muscles, language)}</Text>
       <Text style={styles.heading}>{t(language, 'Secondary muscles', 'Músculos secundarios')}</Text><Text style={styles.body}>{names(exercise.secondary_muscles, language) || t(language, 'None listed', 'Ninguno indicado')}</Text>

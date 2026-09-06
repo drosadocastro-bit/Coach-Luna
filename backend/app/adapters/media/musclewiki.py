@@ -60,3 +60,24 @@ class MuscleWikiClient:
 
     def get_media(self, provider_id: str) -> tuple[ProviderVideo, ...]:
         return self.get_exercise(provider_id).videos
+
+    def create_media_token(self) -> tuple[str, int]:
+        request = urllib.request.Request(
+            f"{self.base_url}/media/token",
+            data=b"",
+            method="POST",
+            headers={"X-API-Key": self.api_key, "Accept": "application/json", "User-Agent": "CoachLuna/0.1"},
+        )
+        self.calls += 1
+        try:
+            with urllib.request.urlopen(request, timeout=self.timeout) as response:
+                payload = json.load(response)
+        except urllib.error.HTTPError as error:
+            body = error.read().decode("utf-8", "replace")[:500]
+            raise MuscleWikiError(f"MuscleWiki HTTP {error.code}: {body}") from None
+        except urllib.error.URLError as error:
+            raise MuscleWikiError(f"MuscleWiki network error: {error.reason}") from None
+        token = payload.get("token") if isinstance(payload, dict) else None
+        if not token:
+            raise MuscleWikiError("MuscleWiki token response was malformed")
+        return str(token), int(payload.get("expires_in", 900))

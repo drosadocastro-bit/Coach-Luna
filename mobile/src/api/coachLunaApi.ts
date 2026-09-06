@@ -1,6 +1,7 @@
 import { API_URL } from '../config/environment';
 import { Exercise } from '../types/exercise';
 import { RoutineRequest, RoutineResponse } from '../types/routine';
+import { MediaResponse } from '../types/media';
 
 export class ApiError extends Error {
   constructor(public kind: 'network' | 'request' | 'server', message: string) { super(message); }
@@ -30,4 +31,5 @@ export const coachLunaApi = {
     return response;
   },
   exercise: (id: string) => request<Exercise>(`/exercises/${encodeURIComponent(id)}`),
+  media: (id: string, angle?: string) => request<MediaResponse>(`/exercises/${encodeURIComponent(id)}/media${angle ? `?angle=${encodeURIComponent(angle)}` : ''}`),
 };

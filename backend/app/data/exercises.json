@@ -1,0 +1,1165 @@
+[
+  {
+    "id": "goblet_squat",
+    "name": "Goblet Squat",
+    "display_name_es": "Sentadilla goblet",
+    "primary_muscles": [
+      "quads",
+      "glutes"
+    ],
+    "secondary_muscles": [
+      "core"
+    ],
+    "equipment": [
+      "dumbbells"
+    ],
+    "movement_pattern": "squat",
+    "difficulty": "beginner",
+    "unilateral": false,
+    "default_sets": 3,
+    "rep_min": 8,
+    "rep_max": 12,
+    "prescription_unit": "reps",
+    "video": {
+      "type": "mp4",
+      "uri": null,
+      "angles": [
+        "side",
+        "front"
+      ]
+    },
+    "instructions_en": [
+      "Hold the dumbbell at your chest; sit down between your hips, then stand with feet planted."
+    ],
+    "instructions_es": [
+      "Sostén la mancuerna frente al pecho; baja entre las caderas y sube con los pies apoyados."
+    ],
+    "common_mistakes_en": [
+      "Heels lifting or knees collapsing inward."
+    ],
+    "common_mistakes_es": [
+      "Levantar los talones o dejar que las rodillas caigan hacia dentro."
+    ],
+    "alternatives": [
+      "sumo_squat",
+      "reverse_lunge"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "db_rdl_001",
+    "name": "Dumbbell Romanian Deadlift",
+    "display_name_es": "Peso muerto rumano con mancuernas",
+    "primary_muscles": [
+      "hamstrings",
+      "glutes"
+    ],
+    "secondary_muscles": [
+      "erectors"
+    ],
+    "equipment": [
+      "dumbbells"
+    ],
+    "movement_pattern": "hinge",
+    "difficulty": "beginner_intermediate",
+    "unilateral": false,
+    "default_sets": 3,
+    "rep_min": 8,
+    "rep_max": 12,
+    "prescription_unit": "reps",
+    "video": {
+      "type": "mp4",
+      "uri": null,
+      "angles": [
+        "side",
+        "front"
+      ]
+    },
+    "instructions_en": [
+      "Keep knees softly bent; push hips back with weights close to legs, then stand tall."
+    ],
+    "instructions_es": [
+      "Flexiona ligeramente las rodillas; lleva las caderas atrás con las pesas cerca de las piernas y vuelve a subir."
+    ],
+    "common_mistakes_en": [
+      "Rounding the back or turning the hinge into a squat."
+    ],
+    "common_mistakes_es": [
+      "Redondear la espalda o convertir el movimiento en una sentadilla."
+    ],
+    "alternatives": [
+      "db_deadlift",
+      "single_leg_rdl"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulgarian_split_squat",
+    "name": "Bulgarian Split Squat",
+    "display_name_es": "Sentadilla búlgara",
+    "primary_muscles": [
+      "quads",
+      "glutes"
+    ],
+    "secondary_muscles": [
+      "hamstrings",
+      "core"
+    ],
+    "equipment": [
+      "dumbbells",
+      "bench"
+    ],
+    "movement_pattern": "lunge",
+    "difficulty": "intermediate",
+    "unilateral": true,
+    "default_sets": 3,
+    "rep_min": 8,
+    "rep_max": 12,
+    "prescription_unit": "reps",
+    "video": {
+      "type": "mp4",
+      "uri": null,
+      "angles": [
+        "side",
+        "front"
+      ]
+    },
+    "instructions_en": [
+      "Rest the rear foot on a stable bench; lower under control and push through the front foot. Repeat each side."
+    ],
+    "instructions_es": [
+      "Apoya el pie trasero en un banco estable; baja con control y empuja con el pie delantero. Repite por lado."
+    ],
+    "common_mistakes_en": [
+      "Pushing mainly with the rear leg or losing balance."
+    ],
+    "common_mistakes_es": [
+      "Empujar principalmente con la pierna trasera o perder el equilibrio."
+    ],
+    "alternatives": [
+      "reverse_lunge",
+      "step_up"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "reverse_lunge",
+    "name": "Dumbbell Reverse Lunge",
+    "display_name_es": "Zancada hacia atrás con mancuernas",
+    "primary_muscles": [
+      "glutes",
+      "quads"
+    ],
+    "secondary_muscles": [
+      "hamstrings",
+      "core"
+    ],
+    "equipment": [
+      "dumbbells"
+    ],
+    "movement_pattern": "lunge",
+    "difficulty": "beginner_intermediate",
+    "unilateral": true,
+    "default_sets": 3,
+    "rep_min": 8,
+    "rep_max": 12,
+    "prescription_unit": "reps",
+    "video": {
+      "type": "mp4",
+      "uri": null,
+      "angles": [
+        "side",
+        "front"
+      ]
+    },
+    "instructions_en": [
+      "Step one foot back, lower both knees, then drive through the front foot to return. Repeat each side."
+    ],
+    "instructions_es": [
+      "Da un paso atrás, flexiona ambas rodillas y empuja con el pie delantero para volver. Repite por lado."
+    ],
+    "common_mistakes_en": [
+      "Taking a very narrow step or bouncing off the rear foot."
+    ],
+    "common_mistakes_es": [
+      "Dar un paso demasiado estrecho o impulsarse con el pie trasero."
+    ],
+    "alternatives": [
+      "walking_lunge",
+      "goblet_squat"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "walking_lunge",
+    "name": "Dumbbell Walking Lunge",
+    "display_name_es": "Zancadas caminando con mancuernas",
+    "primary_muscles": [
+      "quads",
+      "glutes"
+    ],
+    "secondary_muscles": [
+      "hamstrings",
+      "core"
+    ],
+    "equipment": [
+      "dumbbells"
+    ],
+    "movement_pattern": "lunge",
+    "difficulty": "intermediate",
+    "unilateral": true,
+    "default_sets": 3,
+    "rep_min": 8,
+    "rep_max": 12,
+    "prescription_unit": "reps",
+    "video": {
+      "type": "mp4",
+      "uri": null,
+      "angles": [
+        "three_quarter"
+      ]
+    },
+    "instructions_en": [
+      "Use a clear walkway; step forward, lower with control and bring the rear leg through. Count reps per side."
+    ],
+    "instructions_es": [
+      "Usa un pasillo libre; avanza, baja con control y lleva la pierna trasera adelante. Cuenta repeticiones por lado."
+    ],
+    "common_mistakes_en": [
+      "Rushing steps or letting the front knee collapse inward."
+    ],
+    "common_mistakes_es": [
+      "Apurar los pasos o dejar que la rodilla delantera caiga hacia dentro."
+    ],
+    "alternatives": [
+      "reverse_lunge",
+      "bulgarian_split_squat"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "step_up",
+    "name": "Dumbbell Step-Up",
+    "display_name_es": "Subida al escalón con mancuernas",
+    "primary_muscles": [
+      "quads",
+      "glutes"
+    ],
+    "secondary_muscles": [
+      "calves",
+      "core"
+    ],
+    "equipment": [
+      "dumbbells",
+      "step"
+    ],
+    "movement_pattern": "lunge",
+    "difficulty": "beginner_intermediate",
+    "unilateral": true,
+    "default_sets": 3,
+    "rep_min": 8,
+    "rep_max": 12,
+    "prescription_unit": "reps",
+    "video": {
+      "type": "mp4",
+      "uri": null,
+      "angles": [
+        "three_quarter"
+      ]
+    },
+    "instructions_en": [
+      "Place the whole foot on a stable low step; stand using the leading leg and lower slowly. Repeat each side."
+    ],
+    "instructions_es": [
+      "Apoya todo el pie en un escalón bajo y estable; sube con esa pierna y baja despacio. Repite por lado."
+    ],
+    "common_mistakes_en": [
+      "Jumping from the floor or using an unstable platform."
+    ],
+    "common_mistakes_es": [
+      "Saltar desde el suelo o usar una plataforma inestable."
+    ],
+    "alternatives": [
+      "reverse_lunge",
+      "goblet_squat"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "hip_thrust",
+    "name": "Dumbbell Hip Thrust",
+    "display_name_es": "Empuje de cadera con mancuerna",
+    "primary_muscles": [
+      "glutes"
+    ],
+    "secondary_muscles": [
+      "hamstrings",
+      "core"
+    ],
+    "equipment": [
+      "dumbbells",
+      "bench"
+    ],
+    "movement_pattern": "bridge",
+    "difficulty": "beginner_intermediate",
+    "unilateral": false,
+    "default_sets": 3,
+    "rep_min": 10,
+    "rep_max": 15,
+    "prescription_unit": "reps",
+    "video": {
+      "type": "mp4",
+      "uri": null,
+      "angles": [
+        "three_quarter"
+      ]
+    },
+    "instructions_en": [
+      "Support upper back on a stable bench and secure a padded weight across hips; raise hips without arching the back."
+    ],
+    "instructions_es": [
+      "Apoya la espalda alta en un banco estable y sujeta la pesa acolchada sobre las caderas; eleva sin arquear la espalda."
+    ],
+    "common_mistakes_en": [
+      "Overextending the lower back or letting the weight roll."
+    ],
+    "common_mistakes_es": [
+      "Arquear demasiado la zona lumbar o dejar rodar la pesa."
+    ],
+    "alternatives": [
+      "glute_bridge",
+      "db_rdl_001"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "glute_bridge",
+    "name": "Dumbbell Glute Bridge",
+    "display_name_es": "Puente de glúteos con mancuerna",
+    "primary_muscles": [
+      "glutes"
+    ],
+    "secondary_muscles": [
+      "hamstrings",
+      "core"
+    ],
+    "equipment": [
+      "dumbbells"
+    ],
+    "movement_pattern": "bridge",
+    "difficulty": "beginner",
+    "unilateral": false,
+    "default_sets": 3,
+    "rep_min": 10,
+    "rep_max": 15,
+    "prescription_unit": "reps",
+    "video": {
+      "type": "mp4",
+      "uri": null,
+      "angles": [
+        "three_quarter"
+      ]
+    },
+    "instructions_en": [
+      "Lie with knees bent and feet planted; secure the weight over hips, lift hips and lower slowly."
+    ],
+    "instructions_es": [
+      "Acuéstate con rodillas flexionadas y pies apoyados; sujeta la pesa sobre las caderas, eleva y baja despacio."
+    ],
+    "common_mistakes_en": [
+      "Pushing through toes or arching the lower back."
+    ],
+    "common_mistakes_es": [
+      "Empujar con las puntas de los pies o arquear la zona lumbar."
+    ],
+    "alternatives": [
+      "hip_thrust",
+      "db_rdl_001"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "sumo_squat",
+    "name": "Dumbbell Sumo Squat",
+    "display_name_es": "Sentadilla sumo con mancuerna",
+    "primary_muscles": [
+      "quads",
+      "glutes"
+    ],
+    "secondary_muscles": [
+      "core"
+    ],
+    "equipment": [
+      "dumbbells"
+    ],
+    "movement_pattern": "squat",
+    "difficulty": "beginner",
+    "unilateral": false,
+    "default_sets": 3,
+    "rep_min": 8,
+    "rep_max": 12,
+    "prescription_unit": "reps",
+    "video": {
+      "type": "mp4",
+      "uri": null,
+      "angles": [
+        "three_quarter"
+      ]
+    },
+    "instructions_en": [
+      "Take a comfortable wide stance with toes slightly out; lower the weight between legs and stand."
+    ],
+    "instructions_es": [
+      "Separa los pies cómodamente con puntas ligeramente hacia fuera; baja la pesa entre las piernas y sube."
+    ],
+    "common_mistakes_en": [
+      "Forcing an excessively wide stance or rounding the back."
+    ],
+    "common_mistakes_es": [
+      "Forzar una postura demasiado amplia o redondear la espalda."
+    ],
+    "alternatives": [
+      "goblet_squat",
+      "db_deadlift"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "single_leg_rdl",
+    "name": "Single-Leg Romanian Deadlift",
+    "display_name_es": "Peso muerto rumano a una pierna",
+    "primary_muscles": [
+      "hamstrings",
+      "glutes"
+    ],
+    "secondary_muscles": [
+      "core",
+      "erectors"
+    ],
+    "equipment": [
+      "dumbbells"
+    ],
+    "movement_pattern": "hinge",
+    "difficulty": "intermediate",
+    "unilateral": true,
+    "default_sets": 3,
+    "rep_min": 8,
+    "rep_max": 12,
+    "prescription_unit": "reps",
+    "video": {
+      "type": "mp4",
+      "uri": null,
+      "angles": [
+        "side",
+        "front"
+      ]
+    },
+    "instructions_en": [
+      "Balance on one softly bent leg; hinge while extending the other leg back, keeping hips square. Repeat each side."
+    ],
+    "instructions_es": [
+      "Apóyate en una pierna ligeramente flexionada; inclina el torso llevando la otra atrás y mantén las caderas alineadas. Repite por lado."
+    ],
+    "common_mistakes_en": [
+      "Rotating the hips open or reaching too far down."
+    ],
+    "common_mistakes_es": [
+      "Girar las caderas hacia fuera o bajar más allá del control."
+    ],
+    "alternatives": [
+      "db_rdl_001",
+      "db_deadlift"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "db_deadlift",
+    "name": "Dumbbell Deadlift",
+    "display_name_es": "Peso muerto con mancuernas",
+    "primary_muscles": [
+      "glutes",
+      "hamstrings"
+    ],
+    "secondary_muscles": [
+      "quads",
+      "erectors"
+    ],
+    "equipment": [
+      "dumbbells"
+    ],
+    "movement_pattern": "hinge",
+    "difficulty": "beginner_intermediate",
+    "unilateral": false,
+    "default_sets": 3,
+    "rep_min": 8,
+    "rep_max": 12,
+    "prescription_unit": "reps",
+    "video": {
+      "type": "mp4",
+      "uri": null,
+      "angles": [
+        "three_quarter"
+      ]
+    },
+    "instructions_en": [
+      "Hold weights beside legs; bend hips and knees within a controlled range, then push the floor away to stand."
+    ],
+    "instructions_es": [
+      "Sostén las pesas junto a las piernas; flexiona caderas y rodillas con control y empuja el suelo para subir."
+    ],
+    "common_mistakes_en": [
+      "Rounding the back to reach the floor or jerking the weights."
+    ],
+    "common_mistakes_es": [
+      "Redondear la espalda para tocar el suelo o tirar bruscamente de las pesas."
+    ],
+    "alternatives": [
+      "db_rdl_001",
+      "sumo_squat"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bench_press",
+    "name": "Dumbbell Bench Press",
+    "display_name_es": "Press de banca con mancuernas",
+    "primary_muscles": [
+      "chest"
+    ],
+    "secondary_muscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "equipment": [
+      "dumbbells",
+      "bench"
+    ],
+    "movement_pattern": "horizontal_push",
+    "difficulty": "beginner_intermediate",
+    "unilateral": false,
+    "default_sets": 3,
+    "rep_min": 8,
+    "rep_max": 12,
+    "prescription_unit": "reps",
+    "video": {
+      "type": "mp4",
+      "uri": null,
+      "angles": [
+        "three_quarter"
+      ]
+    },
+    "instructions_en": [
+      "Lie on a stable bench with feet planted; lower weights beside chest and press up with wrists stacked."
+    ],
+    "instructions_es": [
+      "Acuéstate en un banco estable con pies apoyados; baja las pesas junto al pecho y empuja manteniendo las muñecas alineadas."
+    ],
+    "common_mistakes_en": [
+      "Bouncing at the bottom or flaring elbows excessively."
+    ],
+    "common_mistakes_es": [
+      "Rebotar abajo o abrir excesivamente los codos."
+    ],
+    "alternatives": [
+      "incline_press"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "incline_press",
+    "name": "Incline Dumbbell Press",
+    "display_name_es": "Press inclinado con mancuernas",
+    "primary_muscles": [
+      "chest"
+    ],
+    "secondary_muscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "equipment": [
+      "dumbbells",
+      "bench"
+    ],
+    "movement_pattern": "horizontal_push",
+    "difficulty": "beginner_intermediate",
+    "unilateral": false,
+    "default_sets": 3,
+    "rep_min": 8,
+    "rep_max": 12,
+    "prescription_unit": "reps",
+    "video": {
+      "type": "mp4",
+      "uri": null,
+      "angles": [
+        "three_quarter"
+      ]
+    },
+    "instructions_en": [
+      "Set an adjustable bench to a low incline; lower weights beside the upper chest and press smoothly."
+    ],
+    "instructions_es": [
+      "Ajusta un banco regulable a una inclinación baja; baja las pesas junto al pecho superior y empuja con control."
+    ],
+    "common_mistakes_en": [
+      "Using a steep incline or bending wrists backward."
+    ],
+    "common_mistakes_es": [
+      "Usar demasiada inclinación o doblar las muñecas hacia atrás."
+    ],
+    "alternatives": [
+      "bench_press",
+      "shoulder_press"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "shoulder_press",
+    "name": "Dumbbell Shoulder Press",
+    "display_name_es": "Press de hombros con mancuernas",
+    "primary_muscles": [
+      "shoulders"
+    ],
+    "secondary_muscles": [
+      "triceps",
+      "core"
+    ],
+    "equipment": [
+      "dumbbells"
+    ],
+    "movement_pattern": "vertical_push",
+    "difficulty": "beginner_intermediate",
+    "unilateral": false,
+    "default_sets": 3,
+    "rep_min": 8,
+    "rep_max": 12,
+    "prescription_unit": "reps",
+    "video": {
+      "type": "mp4",
+      "uri": null,
+      "angles": [
+        "three_quarter"
+      ]
+    },
+    "instructions_en": [
+      "Stand tall with weights at shoulder height; press overhead within a comfortable range and lower slowly."
+    ],
+    "instructions_es": [
+      "Mantente erguida con pesas a la altura de los hombros; empuja arriba en un rango cómodo y baja despacio."
+    ],
+    "common_mistakes_en": [
+      "Leaning backward or shrugging through discomfort."
+    ],
+    "common_mistakes_es": [
+      "Inclinarse hacia atrás o encoger los hombros con molestia."
+    ],
+    "alternatives": [
+      "lateral_raise",
+      "incline_press"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "lateral_raise",
+    "name": "Dumbbell Lateral Raise",
+    "display_name_es": "Elevación lateral con mancuernas",
+    "primary_muscles": [
+      "shoulders"
+    ],
+    "secondary_muscles": [
+      "upper_back"
+    ],
+    "equipment": [
+      "dumbbells"
+    ],
+    "movement_pattern": "isolation",
+    "difficulty": "beginner",
+    "unilateral": false,
+    "default_sets": 3,
+    "rep_min": 10,
+    "rep_max": 15,
+    "prescription_unit": "reps",
+    "video": {
+      "type": "mp4",
+      "uri": null,
+      "angles": [
+        "three_quarter"
+      ]
+    },
+    "instructions_en": [
+      "With soft elbows, lift light weights out to the sides to about shoulder height and lower with control."
+    ],
+    "instructions_es": [
+      "Con codos ligeramente flexionados, eleva pesas ligeras a los lados hasta los hombros y baja con control."
+    ],
+    "common_mistakes_en": [
+      "Swinging the torso or shrugging the weights upward."
+    ],
+    "common_mistakes_es": [
+      "Balancear el torso o subir las pesas encogiendo los hombros."
+    ],
+    "alternatives": [
+      "shoulder_press",
+      "rear_delt_fly"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "rear_delt_fly",
+    "name": "Dumbbell Rear Delt Fly",
+    "display_name_es": "Apertura posterior con mancuernas",
+    "primary_muscles": [
+      "shoulders",
+      "upper_back"
+    ],
+    "secondary_muscles": [
+      "core"
+    ],
+    "equipment": [
+      "dumbbells"
+    ],
+    "movement_pattern": "horizontal_pull",
+    "difficulty": "beginner_intermediate",
+    "unilateral": false,
+    "default_sets": 3,
+    "rep_min": 10,
+    "rep_max": 15,
+    "prescription_unit": "reps",
+    "video": {
+      "type": "mp4",
+      "uri": null,
+      "angles": [
+        "three_quarter"
+      ]
+    },
+    "instructions_en": [
+      "Hinge at the hips with a steady back; open softly bent arms out to the sides, then lower."
+    ],
+    "instructions_es": [
+      "Inclina el torso desde las caderas con espalda estable; abre los brazos ligeramente flexionados y baja."
+    ],
+    "common_mistakes_en": [
+      "Jerking heavy weights or rounding the back."
+    ],
+    "common_mistakes_es": [
+      "Tirar de pesas demasiado pesadas o redondear la espalda."
+    ],
+    "alternatives": [
+      "chest_supported_row",
+      "one_arm_row"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "one_arm_row",
+    "name": "One-Arm Dumbbell Row",
+    "display_name_es": "Remo con mancuerna a una mano",
+    "primary_muscles": [
+      "lats",
+      "upper_back"
+    ],
+    "secondary_muscles": [
+      "biceps",
+      "core"
+    ],
+    "equipment": [
+      "dumbbells",
+      "bench"
+    ],
+    "movement_pattern": "horizontal_pull",
+    "difficulty": "beginner",
+    "unilateral": true,
+    "default_sets": 3,
+    "rep_min": 8,
+    "rep_max": 12,
+    "prescription_unit": "reps",
+    "video": {
+      "type": "mp4",
+      "uri": null,
+      "angles": [
+        "three_quarter"
+      ]
+    },
+    "instructions_en": [
+      "Support one hand on a stable bench; pull the weight toward the hip with a steady torso. Repeat each side."
+    ],
+    "instructions_es": [
+      "Apoya una mano en un banco estable; lleva la pesa hacia la cadera sin girar el torso. Repite por lado."
+    ],
+    "common_mistakes_en": [
+      "Twisting to lift the weight or shrugging the shoulder."
+    ],
+    "common_mistakes_es": [
+      "Girar para levantar la pesa o encoger el hombro."
+    ],
+    "alternatives": [
+      "chest_supported_row",
+      "rear_delt_fly"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "chest_supported_row",
+    "name": "Chest-Supported Dumbbell Row",
+    "display_name_es": "Remo con mancuernas y pecho apoyado",
+    "primary_muscles": [
+      "upper_back",
+      "lats"
+    ],
+    "secondary_muscles": [
+      "biceps",
+      "shoulders"
+    ],
+    "equipment": [
+      "dumbbells",
+      "bench"
+    ],
+    "movement_pattern": "horizontal_pull",
+    "difficulty": "beginner",
+    "unilateral": false,
+    "default_sets": 3,
+    "rep_min": 8,
+    "rep_max": 12,
+    "prescription_unit": "reps",
+    "video": {
+      "type": "mp4",
+      "uri": null,
+      "angles": [
+        "three_quarter"
+      ]
+    },
+    "instructions_en": [
+      "Rest chest on an inclined adjustable bench with feet braced; pull elbows back and lower smoothly."
+    ],
+    "instructions_es": [
+      "Apoya el pecho en un banco regulable inclinado con pies firmes; lleva los codos atrás y baja con control."
+    ],
+    "common_mistakes_en": [
+      "Lifting the chest off the pad or jerking the weights."
+    ],
+    "common_mistakes_es": [
+      "Separar el pecho del apoyo o tirar bruscamente de las pesas."
+    ],
+    "alternatives": [
+      "one_arm_row",
+      "rear_delt_fly"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "pullover",
+    "name": "Dumbbell Pullover",
+    "display_name_es": "Pullover con mancuerna",
+    "primary_muscles": [
+      "lats",
+      "chest"
+    ],
+    "secondary_muscles": [
+      "triceps",
+      "core"
+    ],
+    "equipment": [
+      "dumbbells",
+      "bench"
+    ],
+    "movement_pattern": "pullover",
+    "difficulty": "intermediate",
+    "unilateral": false,
+    "default_sets": 3,
+    "rep_min": 8,
+    "rep_max": 12,
+    "prescription_unit": "reps",
+    "video": {
+      "type": "mp4",
+      "uri": null,
+      "angles": [
+        "three_quarter"
+      ]
+    },
+    "instructions_en": [
+      "Lie lengthwise on a bench; hold one secure dumbbell above chest and lower behind the head only within comfortable shoulder motion."
+    ],
+    "instructions_es": [
+      "Acuéstate a lo largo del banco; sujeta una mancuerna sobre el pecho y baja detrás de la cabeza solo en un rango cómodo."
+    ],
+    "common_mistakes_en": [
+      "Lowering too far or arching the ribs upward."
+    ],
+    "common_mistakes_es": [
+      "Bajar demasiado o arquear el torso levantando las costillas."
+    ],
+    "alternatives": [
+      "one_arm_row",
+      "bench_press"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "biceps_curl",
+    "name": "Dumbbell Biceps Curl",
+    "display_name_es": "Curl de bíceps con mancuernas",
+    "primary_muscles": [
+      "biceps"
+    ],
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "equipment": [
+      "dumbbells"
+    ],
+    "movement_pattern": "isolation",
+    "difficulty": "beginner",
+    "unilateral": false,
+    "default_sets": 3,
+    "rep_min": 10,
+    "rep_max": 15,
+    "prescription_unit": "reps",
+    "video": {
+      "type": "mp4",
+      "uri": null,
+      "angles": [
+        "three_quarter"
+      ]
+    },
+    "instructions_en": [
+      "Keep elbows near the torso and palms forward; curl the weights and lower without swinging."
+    ],
+    "instructions_es": [
+      "Mantén los codos junto al torso y palmas al frente; flexiona los brazos y baja sin balancearte."
+    ],
+    "common_mistakes_en": [
+      "Swinging the body or moving elbows far forward."
+    ],
+    "common_mistakes_es": [
+      "Balancear el cuerpo o adelantar demasiado los codos."
+    ],
+    "alternatives": [
+      "hammer_curl"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "hammer_curl",
+    "name": "Hammer Curl",
+    "display_name_es": "Curl martillo",
+    "primary_muscles": [
+      "biceps",
+      "forearms"
+    ],
+    "secondary_muscles": [],
+    "equipment": [
+      "dumbbells"
+    ],
+    "movement_pattern": "isolation",
+    "difficulty": "beginner",
+    "unilateral": false,
+    "default_sets": 3,
+    "rep_min": 10,
+    "rep_max": 15,
+    "prescription_unit": "reps",
+    "video": {
+      "type": "mp4",
+      "uri": null,
+      "angles": [
+        "three_quarter"
+      ]
+    },
+    "instructions_en": [
+      "Keep palms facing inward and elbows close; curl the weights while keeping wrists neutral."
+    ],
+    "instructions_es": [
+      "Mantén las palmas hacia dentro y codos cerca; flexiona los brazos con muñecas neutras."
+    ],
+    "common_mistakes_en": [
+      "Bending wrists or using momentum."
+    ],
+    "common_mistakes_es": [
+      "Doblar las muñecas o usar impulso."
+    ],
+    "alternatives": [
+      "biceps_curl"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "triceps_extension",
+    "name": "Overhead Dumbbell Triceps Extension",
+    "display_name_es": "Extensión de tríceps sobre la cabeza",
+    "primary_muscles": [
+      "triceps"
+    ],
+    "secondary_muscles": [
+      "core",
+      "shoulders"
+    ],
+    "equipment": [
+      "dumbbells"
+    ],
+    "movement_pattern": "isolation",
+    "difficulty": "beginner_intermediate",
+    "unilateral": false,
+    "default_sets": 3,
+    "rep_min": 10,
+    "rep_max": 15,
+    "prescription_unit": "reps",
+    "video": {
+      "type": "mp4",
+      "uri": null,
+      "angles": [
+        "three_quarter"
+      ]
+    },
+    "instructions_en": [
+      "Secure one dumbbell overhead with both hands; bend elbows to lower behind the head, then extend smoothly."
+    ],
+    "instructions_es": [
+      "Sujeta una mancuerna arriba con ambas manos; flexiona los codos para bajar detrás de la cabeza y extiende con control."
+    ],
+    "common_mistakes_en": [
+      "Arching the back or letting the weight slip in the hands."
+    ],
+    "common_mistakes_es": [
+      "Arquear la espalda o dejar que la pesa resbale entre las manos."
+    ],
+    "alternatives": [
+      "bench_press",
+      "shoulder_press"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "farmer_carry",
+    "name": "Dumbbell Farmer Carry",
+    "display_name_es": "Paseo del granjero con mancuernas",
+    "primary_muscles": [
+      "forearms",
+      "core"
+    ],
+    "secondary_muscles": [
+      "upper_back",
+      "glutes"
+    ],
+    "equipment": [
+      "dumbbells"
+    ],
+    "movement_pattern": "carry",
+    "difficulty": "beginner",
+    "unilateral": false,
+    "default_sets": 3,
+    "rep_min": 20,
+    "rep_max": 30,
+    "prescription_unit": "steps",
+    "video": {
+      "type": "mp4",
+      "uri": null,
+      "angles": [
+        "three_quarter"
+      ]
+    },
+    "instructions_en": [
+      "Hold weights at your sides and walk with short controlled steps along a clear path. Count total steps per set."
+    ],
+    "instructions_es": [
+      "Sostén pesas a los lados y camina con pasos cortos y controlados por un camino libre. Cuenta los pasos totales por serie."
+    ],
+    "common_mistakes_en": [
+      "Leaning sideways or rushing with loose grip."
+    ],
+    "common_mistakes_es": [
+      "Inclinarse a un lado o apurarse con agarre flojo."
+    ],
+    "alternatives": [
+      "dead_bug"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "russian_twist",
+    "name": "Dumbbell Russian Twist",
+    "display_name_es": "Giro ruso con mancuerna",
+    "primary_muscles": [
+      "core"
+    ],
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "equipment": [
+      "dumbbells"
+    ],
+    "movement_pattern": "rotation",
+    "difficulty": "intermediate",
+    "unilateral": true,
+    "default_sets": 3,
+    "rep_min": 8,
+    "rep_max": 12,
+    "prescription_unit": "reps",
+    "video": {
+      "type": "mp4",
+      "uri": null,
+      "angles": [
+        "three_quarter"
+      ]
+    },
+    "instructions_en": [
+      "Sit with heels supported and hold a light weight near the chest; rotate the torso gently side to side. Count each side."
+    ],
+    "instructions_es": [
+      "Siéntate con talones apoyados y una pesa ligera cerca del pecho; gira suavemente el torso a cada lado. Cuenta por lado."
+    ],
+    "common_mistakes_en": [
+      "Rounding the back or forcing large fast twists."
+    ],
+    "common_mistakes_es": [
+      "Redondear la espalda o forzar giros amplios y rápidos."
+    ],
+    "alternatives": [
+      "dead_bug",
+      "farmer_carry"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "dead_bug",
+    "name": "Dumbbell Dead Bug",
+    "display_name_es": "Bicho muerto con mancuerna",
+    "primary_muscles": [
+      "core"
+    ],
+    "secondary_muscles": [
+      "shoulders"
+    ],
+    "equipment": [
+      "dumbbells"
+    ],
+    "movement_pattern": "anti_extension",
+    "difficulty": "beginner_intermediate",
+    "unilateral": true,
+    "default_sets": 3,
+    "rep_min": 8,
+    "rep_max": 12,
+    "prescription_unit": "reps",
+    "video": {
+      "type": "mp4",
+      "uri": null,
+      "angles": [
+        "three_quarter"
+      ]
+    },
+    "instructions_en": [
+      "Lie on your back holding a light dumbbell securely above chest; keep the trunk steady as you extend one leg at a time. Repeat each side."
+    ],
+    "instructions_es": [
+      "Acuéstate boca arriba sujetando una mancuerna ligera sobre el pecho; mantén el tronco estable al extender una pierna a la vez. Repite por lado."
+    ],
+    "common_mistakes_en": [
+      "Arching the lower back or lowering the leg beyond control."
+    ],
+    "common_mistakes_es": [
+      "Arquear la zona lumbar o bajar la pierna más allá del control."
+    ],
+    "alternatives": [
+      "farmer_carry",
+      "russian_twist"
+    ],
+    "enabled": true
+  }
+]

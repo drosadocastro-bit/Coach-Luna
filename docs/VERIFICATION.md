@@ -19,15 +19,13 @@
 - No OpenAI or ElevenLabs dependency, provider integration or actual provider key was added. Every exercise video URI is null; no exercise media was downloaded.
 - Runtime SQLite DB, venv, `.env`, node_modules and export output are ignored by Git.
 
-## Pending acceptance gate
+## Native acceptance
 
-No physical iPhone/Android session or native emulator was available for verification. No Android SDK was found at the standard local SDK location and `adb` is not on PATH. Native rendering, Android hardware Back behavior and physical-device LAN reachability remain **unverified**. Web success and native bundle export do not establish those results.
-
-For the native smoke test: start FastAPI on 8001, configure the device-reachable LAN URL as documented, launch a compatible Expo Go client, generate a workout, open details, switch languages, mark/undo completion and verify return navigation. Repeat on iPhone and Android. Record device/OS/Expo versions and results here.
+Native acceptance is now **verified on Android and iPhone**. Both devices reached the FastAPI backend over the local network and completed the mobile flow: workout generation, bilingual language switching, exercise details, alternatives, completion/undo and return navigation. This confirms the backend connection and app flow on both target mobile platforms. Device model, OS and Expo Go versions were not recorded in this session.
 
 ## GitHub baseline
 
-Phase 0 is functionally complete but native device acceptance is pending. The subsequent GitHub preparation request authorizes an initial baseline commit before native acceptance, with the message `Initialize Coach Luna Phase 0 MVP skeleton (native QA pending)`. This supersedes the earlier commit hold; it does not change any verification result or claim native validation. No automatic push is authorized.
+Phase 0 is functionally complete and native device acceptance is verified on Android and iPhone. The initial baseline commit retains `native QA pending` in its historical message; this follow-up records the completed acceptance without changing the implementation. No automatic push is authorized.
 
 The approved Coach Luna hero image is included unchanged in `docs/assets/coach-luna-hero.png` and `mobile/assets/coach-luna-hero.png`. It is branding artwork, not exercise demonstration media. No exercise videos have been added.
 
